@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="salon_paris" Class="DB_CMCADataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=sony-vpcf2\sqldev;Initial Catalog=salon_paris;User ID=sa" SettingsObjectName="WpfGenerationSqlCommand.Properties.Settings" SettingsPropertyName="salon_parisConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CHEVAUX" Member="CHEVAUX">
+    <Type Name="CHEVAUX">
+      <Column Name="ID_CHEVAL" Type="System.String" DbType="NChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_CATEGORIE" Type="System.String" DbType="NChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_SERIE" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="NOM_CHEVAL" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="NATION_CHEVAL" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="PERE" Type="System.String" DbType="NChar(255)" CanBeNull="true" />
+      <Column Name="MERE" Type="System.String" DbType="NChar(500)" CanBeNull="true" />
+      <Column Name="ORIGINES" Type="System.String" DbType="NChar(500)" CanBeNull="true" />
+      <Column Name="PROPRIETAIRE" Type="System.String" DbType="NChar(255)" CanBeNull="true" />
+      <Column Name="TOTAL_QUALIF" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NOTE_1_QUALIF" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="NOTE_2_QUALIF" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="NOTE_JUGE_QUALIF" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="CALC_QUALIF" Type="System.Decimal" DbType="Decimal(34,2)" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="RG_QUALIF" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RG_QUALIF_OVERALL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RG_OVERALL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PTS_FINALE" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="PARTICIP_FINALE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_FINAL" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ORDRE_QUALIF" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ORDRE_FINALE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RG_FINALE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TROPHEE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ETAON" Type="System.String" DbType="NChar(500)" CanBeNull="true" />
+      <Column Name="CALC_FINALE" Type="System.Decimal" DbType="Decimal(33,2)" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PTS_ELEVEUR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ELEVEUR" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="NOTE_6" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

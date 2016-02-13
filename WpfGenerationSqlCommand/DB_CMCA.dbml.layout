@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DB_CMCA">
+  <DataContextMoniker Name="/DB_CMCADataContext" />
+  <nestedChildShapes>
+    <classShape Id="a1253d75-067b-468d-a62c-c4b149b0a37a" absoluteBounds="6.375, 1.75, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/DB_CMCADataContext/CHEVAUX" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7026b8a6-acbf-46b2-830a-a7d0db77dc24" absoluteBounds="6.39, 2.21, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
